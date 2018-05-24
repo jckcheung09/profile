@@ -1,0 +1,44 @@
+body {
+
+  color: black;
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: white;
+  min-height: 80vh;
+}
+.affix {
+     top: 0;
+     width: 100%;
+     z-index: 9999;
+ }
+
+
+.navmov{
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+h1{
+  font-weight: 700;
+}
+.pagcont{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.name{
+  font-weight: 700;
+}
+
+.prof-pic {
+
+  width: 200px;
+  height: 200px;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+}.
