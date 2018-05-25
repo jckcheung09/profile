@@ -4,7 +4,7 @@ body {
   color: black;
   overflow-x: hidden;
   font-family: 'Heebo','Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+  background-color: #DFDBE5;
 }
 
 .sparta{
@@ -14,11 +14,29 @@ body {
   margin: auto;
 }
 
+hr.style-three {
+height: 30px;
+border-style: solid;
+border-color: black;
+border-width: 1px 0 0 0;
+border-radius: 20px;
+}
+hr.style-three:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: black;
+border-width: 0 0 1px 0;
+border-radius: 20px;
+}
+
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: white;
+  background-color: #FAFAFA;
   min-height: 80vh;
 }
 .affix {
