@@ -26,8 +26,6 @@ section.resume-section {
      width: 100%;
      z-index: 9999;
  }
-
-
 .navmov{
   margin-bottom: 0;
   font-weight: 700;
@@ -55,4 +53,10 @@ h1{
 
 .text-primary {
   color: #fed136;
+}
+.subheading{
+  font-weight: 600;
+}
+.resume-date{
+  margin-top: 10px;
 }
